@@ -1,0 +1,2 @@
+[webservers]
+z-an[01:02] ansible_ssh_pass=qwe123

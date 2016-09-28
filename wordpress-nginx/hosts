@@ -1,0 +1,2 @@
+[wordpress-server]
+z-an01 ansible_ssh_pass=qwe123

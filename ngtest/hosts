@@ -1,0 +1,3 @@
+[webservers]
+z-an01 ansible_ssh_pass=qwe123
+z-an02 ansible_ssh_pass=qwe123
