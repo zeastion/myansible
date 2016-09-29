@@ -1,0 +1,6 @@
+---
+- name: Copy the NGINX repository definition
+  copy: src=nginx.repo dest=/etc/yum.repos.d/
+
+- name: Copy the REMI repository definition
+  copy: src=remi.repo dest=/etc/yum.repos.d/
