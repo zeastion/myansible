@@ -1,0 +1,17 @@
+---
+# These tasks install http and the php modules
+
+- name: Install httpd and php
+  yum: name={{ item }} state=present
+  with_items:
+    - httpd
+    - php
+    - php-mysql
+
+- name: Install web role specific dependencies
+  yum: name={{ item }} state=installed
+  with_items:
+    - git
+
+- name: http service state
+  service: name=httpd state=started enabled=yes

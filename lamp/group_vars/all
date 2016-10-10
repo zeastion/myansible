@@ -1,0 +1,5 @@
+---
+
+httpd_port: 80
+ntpserver: 202.120.2.101
+repository: https://github.com/bennojoy/mywebapp.git
